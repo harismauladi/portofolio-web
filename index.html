@@ -1,0 +1,573 @@
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <title>Portofolio</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- NAVBAR -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 p-4 lg:p-1"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <h1
+              class="text-lg text-white font-Poppins font-bold transition duration-300 ease-in-out lg:text-2xl"
+              id="nav-title"
+            >
+              Portofolio
+            </h1>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="navMenu"
+              name="nav-menu"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="nav-menu transition duration-300 ease-in-out origin-top-left bg-white"
+                id="span1"
+              ></span>
+              <span
+                class="nav-menu transition duration-300 ease-in-out bg-white"
+                id="span2"
+              ></span>
+              <span
+                class="nav-menu transition duration-300 ease-in-out origin-bottom-left bg-white"
+                id="span3"
+              ></span>
+            </button>
+            <nav
+              id="nav-list"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full font-Poppins bg-opacity-80 lg:block lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:relative lg:left-6"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#main"
+                    class="text-base lg:text-lg text-primary py-2 mx-8 flex group-hover:text-secondary group-hover:font-bold lg:text-white lg:transition lg:duration-300 lg:ease-in-out"
+                    id="link1"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base lg:text-lg text-primary py-2 mx-8 flex group-hover:text-secondary group-hover:font-bold lg:text-white lg:transition lg:duration-300 lg:ease-in-out"
+                    id="link2"
+                    >About Me</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contactme"
+                    class="text-base lg:text-lg text-primary py-2 mx-8 flex group-hover:text-secondary group-hover:font-bold lg:text-white lg:transition lg:duration-300 lg:ease-in-out"
+                    id="link3"
+                    >Contact Me</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END NAVBAR -->
+    <!-- Hero Section Start -->
+    <section
+      class="pt-20 h-[710px] w-full bg-cover"
+      id="main"
+      style="background-image: url('./assets/bg6.png')"
+    >
+      <div class="container">
+        <div class="flex flex-wrap p-4">
+          <div
+            class="font-Poppins text-base font-bold px-4 self-center w-full lg:w-1/2 text-white md:text-xl lg:text-7xl md:relative md:left-16 md:w-1/2 lg:relative lg:left-40"
+            data-aos="fade-right"
+          >
+            <h1>
+              Hi, My name is <span class="text-secondary">Haris</span>, I'm
+            </h1>
+            <div
+              class="bg-primary text-white rounded-full text-center w-72 overflow-hidden h-9 lg:relative lg:top-3 lg:w-4/5 lg:h-11"
+            >
+              <div
+                class="list leading-leading-11 first:animate-slide md:text-xl lg:text-2xl md:leading-leading-11 lg:leading-leading-11"
+              >
+                From <span class="text-secondary">Jakarta</span>
+              </div>
+              <div
+                class="list leading-leading-11 first:animate-slide md:text-xl lg:text-2xl md:leading-leading-11 lg:leading-leading-11"
+              >
+                <span class="text-secondary">19</span> Years Old
+              </div>
+              <div
+                class="list leading-leading-11 first:animate-slide md:text-xl lg:text-2xl md:leading-leading-11 lg:leading-leading-11"
+              >
+                <span class="text-secondary">Front</span>-End
+              </div>
+            </div>
+            <div
+              class="font-normal md:text-xl lg:relative lg:top-4 lg:text-2xl"
+            >
+              <p>
+                Welcome to my personal
+                <span class="text-secondary">website</span>
+              </p>
+            </div>
+            <div
+              class="bg-primary text-white text-center w-40 rounded-full font-normal text-base h-9 cursor-pointer hover:bg-secondary group lg:relative lg:top-7 transition duration-150 ease-in-out lg:w-48 lg:h-11"
+            >
+              <a class="relative top-1 lg:text-xl" href="#contactme">
+                <span
+                  class="text-secondary group-hover:text-white group-hover:font-bold"
+                  >Contact</span
+                ><span class="group-hover:text-primary group-hover:font-bold">
+                  me</span
+                >
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-full self-end px-4 lg:w-1/2 md:relative md:left-28 md:w-1/2 lg:relative lg:left-28"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="mt-10 w-full">
+              <img
+                src="./assets/profile 1.png"
+                alt="Haris"
+                class="max-w-full mx-auto w-4/5 h-4/5 lg:relative lg:-left-20"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32 overflow-x-hidden w-full">
+      <div class="container">
+        <div class="flex flex-wrap w-full">
+          <div class="w-full mb-10 font-Poppins lg:w-1/2 text-base md:text-xl">
+            <div class="md:relative md:left-10 lg:relative lg:left-32 lg:pt-4">
+              <h1
+                class="font-bold pl-7 px-4 text-7xl md:text-7xl lg:text-9xl"
+                data-aos="fade-up"
+              >
+                <span class="text-white lg:text-primary">About</span
+                ><span class="text-primary lg:text-secondary"> Me</span>
+              </h1>
+              <p
+                class="pt-4 pl-7 px-4 lg:text-2xl font-thin block lg:pt-6 lg:w-4/5"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                I’m a first semester student in Mercu Buana University with
+                Major Informatics, have an interest in Front-end Programming. i
+                am looking for new job opportunities
+              </p>
+              <div
+                class="flex flex-wrap pt-2 pr-5"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <a
+                  href="https://api.whatsapp.com/send/?phone=6285711815850&text&type=phone_number&app_absent=0"
+                >
+                  <img src="./assets/wa.png" alt="" class="relative left-7" />
+                </a>
+                <a href="https://www.instagram.com/_veills?r=nametag">
+                  <img
+                    src="./assets/ig.png"
+                    alt=""
+                    class="relative left-8 bottom-1"
+                  />
+                </a>
+                <a href="https://github.com/harismauladi">
+                  <img
+                    src="./assets/github.png"
+                    alt=""
+                    class="relative left-9 bottom-[2px] w-4/5 h-4/5"
+                  />
+                </a>
+              </div>
+            </div>
+            <img
+              src="./assets/top-left.png"
+              alt=""
+              class="absolute top-[750px] -z-10 pl-0 lg:w-[30%] lg:h-[65%]"
+            />
+          </div>
+          <div
+            class="w-full lg:w-1/2 justify-center self-center overflow-hidden lg:overflow-visible"
+            data-aos="fade-up-left"
+          >
+            <img
+              src="./assets/picture.png"
+              alt="Me"
+              class="relative left-28 lg:relative lg:bottom-20 lg:left-40"
+            />
+          </div>
+          <div class="w-full pt-[4rem] font-Poppins px-7 pl-7 lg:pt-4 md:pt-2">
+            <h1 class="font-bold relative left-5 text-2xl lg:text-4xl">
+              Programming <span class="text-secondary">Skills</span>
+            </h1>
+            <div class="w-full md:flex md:flex-wrap">
+              <div
+                class="bg-primary rounded-full flex flex-wrap md:w-1/2 relative top-3 drop-shadow-xl lg:p-2"
+                data-aos="zoom-in"
+              >
+                <img src="./assets/html.png" alt="html" class="w-16 p-1 pl-5" />
+                <h1 class="text-white pt-3 lg:text-xl">
+                  Hypertext Markup <span class="text-secondary">Language</span>
+                </h1>
+              </div>
+              <div
+                class="bg-primary rounded-full flex flex-wrap relative top-5 md:w-1/2 md:top-3 md:left-4 drop-shadow-xl lg:p-2"
+                data-aos="zoom-in"
+              >
+                <img src="./assets/css.png" alt="html" class="w-16 p-1 pl-5" />
+                <h1 class="text-white pt-3 lg:text-xl">
+                  Casanding <span class="text-secondary">Style</span> Sheet
+                </h1>
+              </div>
+              <div
+                class="bg-primary rounded-full flex flex-wrap relative top-7 md:w-1/2 md:top-5 p-[0.4rem] drop-shadow-xl lg:p-2"
+                data-aos="zoom-in"
+              >
+                <img src="./assets/js.png" alt="html" class="w-14 p-1 pl-7" />
+                <h1
+                  class="text-white pt-3 relative left-2 bottom-[0.4rem] lg:text-xl"
+                >
+                  Java<span class="text-secondary">Script</span>
+                </h1>
+              </div>
+              <div
+                class="bg-primary rounded-full flex flex-wrap relative top-9 md:w-1/2 md:top-5 md:left-4 p-[0.4rem] drop-shadow-xl lg:p-2"
+                data-aos="zoom-in"
+              >
+                <img
+                  src="./assets/tailwind.png"
+                  alt="html"
+                  class="w-14 p-1 pl-7"
+                />
+                <h1
+                  class="text-white pt-3 relative left-2 bottom-[0.4rem] lg:text-xl"
+                >
+                  Tail<span class="text-secondary">wind</span>
+                </h1>
+              </div>
+              <div
+                class="bg-primary rounded-full flex flex-wrap relative top-11 md:w-1/2 md:top-7 p-[0.4rem] drop-shadow-xl lg:p-2"
+                data-aos="zoom-in"
+              >
+                <img
+                  src="./assets/react.png"
+                  alt="html"
+                  class="w-14 p-1 pl-7"
+                />
+                <h1
+                  class="text-white pt-3 relative left-2 bottom-[0.4rem] lg:text-xl"
+                >
+                  <span class="text-secondary">React</span>JS
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="w-full font-Poppins pt-20 px-14">
+            <h1 class="text-2xl font-bold lg:text-4xl">Certificate</h1>
+            <img
+              src="./assets/tribute3.png"
+              alt=""
+              class="absolute -z-10 left-[1100px] lg:h-[105%]"
+            />
+            <div class="w-full flex flex-wrap">
+              <div
+                class="bg-primary rounded-xl flex flex-wrap relative top-7 md:top-7 p-[0.4rem] drop-shadow-xl h-auto w-full mb-10 shadow-2xl shadow-slate-300"
+              >
+                <div class="w-full lg:w-1/2">
+                  <img
+                    src="./assets/front-end/1.jpg"
+                    alt=""
+                    class="w-[90%] h-[90%] pt-3 rounded-lg relative left-4"
+                  />
+                </div>
+                <div
+                  class="w-full font-Poppins text-white text-base text-center justify-center lg:w-1/2 relative bottom-5 lg:bottom-0 lg:top-7"
+                >
+                  <h1
+                    class="font-bold lg:text-3xl lg:text-left"
+                    data-aos="fade-up"
+                  >
+                    Belajar Membuat
+                    <span class="text-secondary">Front</span>-End Untuk Pemula
+                  </h1>
+                  <p
+                    class="pt-4 text-left hidden lg:block lg:text-base"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    Dicoding Certificate For Graduate From Beginner Front-End
+                    Programing. The Lesson I Learn From This Certificate is :
+                  </p>
+
+                  <ul
+                    class="text-left list-disc text-base pt-2 hidden lg:block"
+                  >
+                    <li data-aos="fade-up" data-aos-delay="200">
+                      Basic JavaScript
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="300">
+                      Browser Object and DOM Manipulation
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="400">Web Storage</li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="bg-primary rounded-xl flex flex-wrap relative top-7 md:top-7 p-[0.4rem] drop-shadow-xl h-auto w-full mb-10 shadow-2xl shadow-slate-300"
+              >
+                <div class="w-full lg:w-1/2">
+                  <img
+                    src="./assets/js/1.jpg"
+                    alt=""
+                    class="w-[90%] h-[90%] pt-3 rounded-lg relative left-4"
+                  />
+                </div>
+                <div
+                  class="w-full font-Poppins text-white text-base text-center justify-center lg:w-1/2 relative bottom-5 lg:bottom-0 lg:top-7"
+                >
+                  <h1
+                    class="font-bold lg:text-3xl lg:text-left pt-1 lg:pt-0"
+                    data-aos="fade-up"
+                  >
+                    Belajar Dasar Pemrograman Java<span class="text-secondary"
+                      >Script</span
+                    >
+                  </h1>
+                  <p
+                    class="pt-4 text-left hidden lg:block lg:text-base"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    Dicoding Certificate For Graduate From Beginner JavaScript
+                    Programing. The Lesson I Learn From This Certificate is :
+                  </p>
+
+                  <ul class="text-left list-disc text-sm pt-1 hidden lg:block">
+                    <li data-aos="fade-up" data-aos-delay="200">
+                      JavaScript Fundamentals
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="300">
+                      Data Structure
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="400">Function</li>
+                    <li data-aos="fade-up" data-aos-delay="500">
+                      Object Oriented Programing ( OOP )
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="600">
+                      Functional Programming
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="700">
+                      Setup Environment
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="800">Module</li>
+                    <li data-aos="fade-up" data-aos-delay="900">
+                      Error Handling
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="1000">
+                      Concurrency
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="1100">
+                      Node Package Manager
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="1200">
+                      JavaScript Testing
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full font-Poppins pt-20 px-[70px]">
+            <h1 class="text-2xl font-bold lg:text-4xl">Project</h1>
+            <img
+              src="./assets/tribute4.png"
+              alt=""
+              class="absolute right-44 -z-10 lg:right-[1050px] lg:w-[80%] lg:h-[115%] md:right-[700] w-[105%] h-[85%]"
+            />
+            <div class="w-full flex flex-wrap">
+              <div
+                class="bg-primary rounded-xl flex flex-wrap relative top-7 md:top-7 p-[0.4rem] drop-shadow-xl h-auto w-full mb-10 shadow-2xl shadow-slate-300 hover:bg-transparent group cursor-pointer"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
+              >
+                <div class="w-full lg:w-1/2">
+                  <img
+                    src="./assets/project.png"
+                    alt=""
+                    class="w-[90%] h-[90%] pt-3 rounded-lg relative left-4"
+                  />
+                </div>
+                <div
+                  class="w-full font-Poppins text-white text-base text-center justify-center lg:w-1/2 relative bottom-5 lg:bottom-0 lg:top-7"
+                >
+                  <a href="https://harismauladi.github.io/bookshelf-app/">
+                    <h1
+                      class="font-bold lg:text-3xl lg:text-left pt-3 group-hover:text-primary"
+                    >
+                      Book<span
+                        class="text-secondary lg:group-hover:text-secondary group-hover:text-primary"
+                        >Shelf</span
+                      >
+                      App
+                    </h1>
+                  </a>
+                  <p
+                    class="pt-4 text-left hidden lg:block lg:text-base group-hover:text-primary"
+                  >
+                    Submission project that i made for fulfill a class in
+                    dicoding academy, the website can create , read, update and
+                    delete a book
+                  </p>
+                  <a
+                    href="https://harismauladi.github.io/bookshelf-app/"
+                    class="text-right hidden lg:block group-hover:text-primary pt-16 px-7 underline hover:text-secondary"
+                  >
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+    <!-- Contact Me Start -->
+    <section id="contactme">
+      <div class="container">
+        <div class="flex flex-wrap p-4">
+          <div class="w-full px-[20px] p-4 font-Poppins text-center">
+            <h1 class="font-bold text-2xl lg:text-4xl">
+              Contact <span class="text-secondary"> Me</span>
+            </h1>
+            <p class="pt-2">If you intersted with me, just hit me up</p>
+          </div>
+          <div
+            class="w-full px-[20px] bg-primary rounded-xl max-w-6xl relative lg:left-40"
+          >
+            <form>
+              <div class="relative z-0 mb-6 w-full group top-4">
+                <input
+                  type="text"
+                  name="floating_email"
+                  id="floating_email"
+                  class="block py-2.5 px-0 text-sm w-full text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-secondary focus:outline-none focus:ring-0 focus:border-secondary peer"
+                  placeholder=" "
+                  required
+                />
+                <label
+                  for="floating_email"
+                  class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-secondary peer-focus:dark:text-secondary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                  >Name</label
+                >
+              </div>
+              <div class="relative z-0 mb-6 w-full group top-4">
+                <input
+                  type="email"
+                  name="floating_password"
+                  id="floating_password"
+                  class="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-secondary focus:outline-none focus:ring-0 focus:border-secondary peer"
+                  placeholder=" "
+                  required
+                />
+                <label
+                  for="floating_password"
+                  class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-secondary peer-focus:dark:text-secondary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                  >Email</label
+                >
+              </div>
+              <div class="relative z-0 mb-6 w-full group top-4">
+                <input
+                  type="text"
+                  name="repeat_password"
+                  id="floating_repeat_password"
+                  class="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-secondary focus:outline-none focus:ring-0 focus:border-secondary peer"
+                  placeholder=" "
+                  required
+                />
+                <label
+                  for="floating_repeat_password"
+                  class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-secondary peer-focus:dark:text-secondary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                  >Description</label
+                >
+              </div>
+              <button
+                type="submit"
+                class="text-white bg-secondary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 relative top-1 lg:left-[1030px]"
+                id="submitBtn"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+    <!-- FOOTER Start -->
+    <section id="footer">
+      <div class="container w-full">
+        <div
+          class="flex flex-wrap p-4 font-Poppins text-white px-0 w-[1580px] pb-0 bg-primary rounded-md"
+        >
+          <div class="w-full pb-10 lg:w-1/2 lg:relative lg:left-60">
+            <h1 class="px-7 pt-12 font-bold text-5xl">Haris Mauladi</h1>
+            <h2 class="px-7 w-[8%] text-slate-300 text-xl">
+              haris1922.hmh@gmail.com
+            </h2>
+
+            <h2 class="px-7 w-[20%] lg:w-1/2 text-slate-400">
+              Jl Pedongkelan Belakang RT 10 RW 13 Kelurahan Kapuk, Kecamatan
+              Cengkareng , Jakarta Barat
+            </h2>
+          </div>
+          <div class="w-full pb-10 lg:w-1/2 lg:relative lg:left-40">
+            <h1 class="px-7 pt-12 font-bold text-5xl">Tautan</h1>
+            <a href="#main" class="px-9 block text-slate-400 pt-2">Home</a>
+            <a href="#about" class="px-9 block text-slate-400 pt-2">About Me</a>
+            <a href="#contactme" class="px-9 block text-slate-400 pt-2"
+              >Contact Me</a
+            >
+          </div>
+          <div
+            class="w-full relative text-sm left-9 bottom-3 lg:left-[600px] pb-3"
+          >
+            <h1 class="text-slate-400">
+              Copyright &copy; Haris Mauladi 2022, All Right Reserved
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER End -->
+    <script>
+      AOS.init();
+    </script>
+    <script src="./dist/js/script.js"></script>
+  </body>
+</html>
