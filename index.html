@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="./dist/output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -289,12 +289,10 @@
           </div>
           <div class="w-full font-Poppins pt-20 px-14">
             <h1 class="text-2xl font-bold lg:text-4xl">Certificate</h1>
-            <img
-              src="./assets/tribute3.png"
-              alt=""
-              class="absolute -z-10 left-[1100px] lg:h-[105%]"
-            />
-            <div class="w-full flex flex-wrap">
+            <div
+              class="w-full flex flex-wrap before:content-[url(./assets/tribute3.png)]"
+              image="./assets/tribute3.png"
+            >
               <div
                 class="bg-primary rounded-xl flex flex-wrap relative top-7 md:top-7 p-[0.4rem] drop-shadow-xl h-auto w-full mb-10 shadow-2xl shadow-slate-300"
               >
@@ -445,6 +443,7 @@
                   </p>
                   <a
                     href="https://harismauladi.github.io/bookshelf-app/"
+                    target="_blank"
                     class="text-right hidden lg:block group-hover:text-primary pt-16 px-7 underline hover:text-secondary"
                   >
                     Learn More
