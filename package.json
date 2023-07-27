@@ -1,8 +1,14 @@
 {
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
-    "tailwindcss": "^3.2.1"
+    "tailwindcss": "^3.2.1",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "flowbite": "^1.7.0",
+    "webpack": "^5.88.2"
   }
 }

@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/hi-icon.svg" type="image/x-icon" />
     <link href="./dist/output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,7 +12,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="sweetalert2.min.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Portofolio</title>
   </head>
   <body class="overflow-x-hidden">
@@ -26,7 +29,7 @@
               class="text-lg text-white font-Poppins font-bold transition duration-300 ease-in-out lg:text-2xl"
               id="nav-title"
             >
-              Portofolio
+              <pre>< Haris /></pre>
             </h1>
           </div>
           <div class="flex items-center px-4">
@@ -164,7 +167,7 @@
           <div class="w-full mb-10 font-Poppins lg:w-1/2 text-base md:text-xl">
             <div class="md:relative md:left-10 lg:relative lg:left-32 lg:pt-4">
               <h1
-                class="font-bold pl-7 px-4 text-7xl md:text-7xl lg:text-9xl"
+                class="font-bold pl-7 px-4 text-7xl md:text-7xl lg:text-8xl"
                 data-aos="fade-up"
               >
                 <span class="text-white lg:text-primary">About</span
@@ -175,9 +178,8 @@
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                I’m a first semester student in Mercu Buana University with
-                Major Informatics, have an interest in Front-end Programming. i
-                am looking for new job opportunities
+                I’m a student on Mercu Buana University with Major Informatics,
+                have an interest in Front-end Programming.
               </p>
               <div
                 class="flex flex-wrap pt-2 pr-5"
@@ -298,6 +300,58 @@
               >
                 <div class="w-full lg:w-1/2">
                   <img
+                    src="./assets/react-exp.jpg"
+                    alt=""
+                    class="w-[90%] h-[90%] pt-3 rounded-lg relative left-4"
+                  />
+                </div>
+                <div
+                  class="w-full font-Poppins text-white text-base text-center justify-center lg:w-1/2 relative bottom-5 lg:bottom-0 lg:top-7"
+                >
+                  <h1
+                    class="font-bold lg:text-3xl lg:text-left"
+                    data-aos="fade-up"
+                  >
+                    Menjadi
+                    <span class="text-secondary">React</span> Web Developer
+                    Expert
+                  </h1>
+                  <p
+                    class="pt-4 text-left hidden lg:block lg:text-base"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    Dicoding Certificate For Graduate From Expert ReactJS
+                    Developer Class. The Lesson I Learn From This Certificate is
+                    :
+                  </p>
+
+                  <ul
+                    class="text-left list-disc text-base pt-2 hidden lg:block"
+                  >
+                    <li data-aos="fade-up" data-aos-delay="200">
+                      Linter and Clean Code
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="300">
+                      State Management using Redux
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="400">
+                      Automation Testing
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="500">
+                      Deployment using CI/CD
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="600">
+                      React Useful Ecosystem
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="bg-primary rounded-xl flex flex-wrap relative top-7 md:top-7 p-[0.4rem] drop-shadow-xl h-auto w-full mb-10 shadow-2xl shadow-slate-300"
+              >
+                <div class="w-full lg:w-1/2">
+                  <img
                     src="./assets/front-end/1.jpg"
                     alt=""
                     class="w-[90%] h-[90%] pt-3 rounded-lg relative left-4"
@@ -335,69 +389,6 @@
                   </ul>
                 </div>
               </div>
-              <div
-                class="bg-primary rounded-xl flex flex-wrap relative top-7 md:top-7 p-[0.4rem] drop-shadow-xl h-auto w-full mb-10 shadow-2xl shadow-slate-300"
-              >
-                <div class="w-full lg:w-1/2">
-                  <img
-                    src="./assets/js/1.jpg"
-                    alt=""
-                    class="w-[90%] h-[90%] pt-3 rounded-lg relative left-4"
-                  />
-                </div>
-                <div
-                  class="w-full font-Poppins text-white text-base text-center justify-center lg:w-1/2 relative bottom-5 lg:bottom-0 lg:top-7"
-                >
-                  <h1
-                    class="font-bold lg:text-3xl lg:text-left pt-1 lg:pt-0"
-                    data-aos="fade-up"
-                  >
-                    Belajar Dasar Pemrograman Java<span class="text-secondary"
-                      >Script</span
-                    >
-                  </h1>
-                  <p
-                    class="pt-4 text-left hidden lg:block lg:text-base"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    Dicoding Certificate For Graduate From Beginner JavaScript
-                    Programing. The Lesson I Learn From This Certificate is :
-                  </p>
-
-                  <ul class="text-left list-disc text-sm pt-1 hidden lg:block">
-                    <li data-aos="fade-up" data-aos-delay="200">
-                      JavaScript Fundamentals
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="300">
-                      Data Structure
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="400">Function</li>
-                    <li data-aos="fade-up" data-aos-delay="500">
-                      Object Oriented Programing ( OOP )
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="600">
-                      Functional Programming
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="700">
-                      Setup Environment
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="800">Module</li>
-                    <li data-aos="fade-up" data-aos-delay="900">
-                      Error Handling
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="1000">
-                      Concurrency
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="1100">
-                      Node Package Manager
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="1200">
-                      JavaScript Testing
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
           <div class="w-full font-Poppins pt-20 px-[70px]">
@@ -415,6 +406,51 @@
               >
                 <div class="w-full lg:w-1/2">
                   <img
+                    src="./assets/forum-app.jpeg"
+                    alt=""
+                    class="w-[90%] h-[90%] pt-3 rounded-lg relative left-4"
+                  />
+                </div>
+                <div
+                  class="w-full font-Poppins text-white text-base text-center justify-center lg:w-1/2 relative bottom-5 lg:bottom-0 lg:top-7"
+                >
+                  <a
+                    href="https://forum-app-dicoding-academy.vercel.app/"
+                    target="_blank"
+                  >
+                    <h1
+                      class="font-bold lg:text-3xl lg:text-left pt-3 group-hover:text-primary"
+                    >
+                      Forum<span
+                        class="text-secondary lg:group-hover:text-secondary group-hover:text-primary"
+                        >Keren</span
+                      >
+                      App
+                    </h1>
+                  </a>
+                  <p
+                    class="pt-4 text-left hidden lg:block lg:text-base group-hover:text-primary"
+                  >
+                    Submission project that i made for fulfill Expert React
+                    class in Dicoding academy, the website i build with ReactJS
+                    and State Management using Redux.
+                  </p>
+                  <a
+                    href="https://forum-app-dicoding-academy.vercel.app/"
+                    target="_blank"
+                    class="text-right hidden lg:block group-hover:text-primary pt-[3.7rem] px-7 underline hover:text-secondary"
+                  >
+                    Learn More
+                  </a>
+                </div>
+              </div>
+              <div
+                class="bg-primary rounded-xl flex flex-wrap relative top-7 md:top-7 p-[0.4rem] drop-shadow-xl h-auto w-full mb-10 shadow-2xl shadow-slate-300 hover:bg-transparent group cursor-pointer"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
+              >
+                <div class="w-full lg:w-1/2">
+                  <img
                     src="./assets/project.png"
                     alt=""
                     class="w-[90%] h-[90%] pt-3 rounded-lg relative left-4"
@@ -423,7 +459,10 @@
                 <div
                   class="w-full font-Poppins text-white text-base text-center justify-center lg:w-1/2 relative bottom-5 lg:bottom-0 lg:top-7"
                 >
-                  <a href="https://harismauladi.github.io/bookshelf-app/">
+                  <a
+                    href="https://harismauladi.github.io/bookshelf-app/"
+                    target="_blank"
+                  >
                     <h1
                       class="font-bold lg:text-3xl lg:text-left pt-3 group-hover:text-primary"
                     >
@@ -458,72 +497,72 @@
     <!-- End About -->
     <!-- Contact Me Start -->
     <section id="contactme">
-      <div class="container">
-        <div class="flex flex-wrap p-4">
-          <div class="w-full px-[20px] p-4 font-Poppins text-center">
-            <h1 class="font-bold text-2xl lg:text-4xl">
-              Contact <span class="text-secondary"> Me</span>
-            </h1>
-            <p class="pt-2">If you intersted with me, just hit me up</p>
-          </div>
-          <div
-            class="w-full px-[20px] bg-primary rounded-xl max-w-6xl relative lg:left-40"
-          >
-            <form>
-              <div class="relative z-0 mb-6 w-full group top-4">
-                <input
-                  type="text"
-                  name="floating_email"
-                  id="floating_email"
-                  class="block py-2.5 px-0 text-sm w-full text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-secondary focus:outline-none focus:ring-0 focus:border-secondary peer"
-                  placeholder=" "
-                  required
-                />
-                <label
-                  for="floating_email"
-                  class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-secondary peer-focus:dark:text-secondary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                  >Name</label
-                >
-              </div>
-              <div class="relative z-0 mb-6 w-full group top-4">
-                <input
-                  type="email"
-                  name="floating_password"
-                  id="floating_password"
-                  class="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-secondary focus:outline-none focus:ring-0 focus:border-secondary peer"
-                  placeholder=" "
-                  required
-                />
-                <label
-                  for="floating_password"
-                  class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-secondary peer-focus:dark:text-secondary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                  >Email</label
-                >
-              </div>
-              <div class="relative z-0 mb-6 w-full group top-4">
-                <input
-                  type="text"
-                  name="repeat_password"
-                  id="floating_repeat_password"
-                  class="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-secondary focus:outline-none focus:ring-0 focus:border-secondary peer"
-                  placeholder=" "
-                  required
-                />
-                <label
-                  for="floating_repeat_password"
-                  class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-secondary peer-focus:dark:text-secondary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                  >Description</label
-                >
-              </div>
-              <button
-                type="submit"
-                class="text-white bg-secondary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 relative top-1 lg:left-[1030px]"
-                id="submitBtn"
+      <div class="container w-full"">
+      <div class="flex flex-wrap p-4 justify-center items-center">
+        <div class="w-full px-[20px] p-4 font-Poppins text-center">
+          <h1 class="font-bold text-2xl lg:text-4xl">
+            Contact <span class="text-secondary"> Me</span>
+          </h1>
+          <p class="pt-2">If you intersted with me, just hit me up</p>
+        </div>
+        <div class="w-full lg:w-4/5 px-[20px] bg-primary rounded-xl">
+          <form>
+            <div class="relative z-0 mb-6 w-full group top-4">
+              <input
+                type="text"
+                name="floating_email"
+                id="floating_email"
+                class="block py-2.5 px-0 text-sm w-full text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-secondary focus:outline-none focus:ring-0 focus:border-secondary peer"
+                placeholder=" "
+                id="nameInput"
+                required
+              />
+              <label
+                for="floating_email"
+                class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-secondary peer-focus:dark:text-secondary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >Name</label
               >
-                Submit
-              </button>
-            </form>
-          </div>
+            </div>
+            <div class="relative z-0 mb-6 w-full group top-4">
+              <input
+                type="email"
+                name="floating_password"
+                id="floating_password"
+                class="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-secondary focus:outline-none focus:ring-0 focus:border-secondary peer"
+                placeholder=" "
+                id="emailInput"
+                required
+              />
+              <label
+                for="floating_password"
+                class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-secondary peer-focus:dark:text-secondary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >Email</label
+              >
+            </div>
+            <div class="relative z-0 mb-6 w-full group top-4">
+              <input
+                type="text"
+                name="repeat_password"
+                id="floating_repeat_password"
+                class="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-secondary focus:outline-none focus:ring-0 focus:border-secondary peer"
+                placeholder=" "
+                id="descInput"
+                required
+              />
+              <label
+                for="floating_repeat_password"
+                class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-secondary peer-focus:dark:text-secondary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >Description</label
+              >
+            </div>
+            <button
+              type="button"
+              class="text-white bg-secondary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 relative top-1 w-full"
+              id="submitBtn"
+            >
+              Submit
+            </button>
+          </form>
         </div>
       </div>
     </section>
@@ -567,6 +606,8 @@
     <script>
       AOS.init();
     </script>
-    <script src="./dist/js/script.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="sweetalert2.min.js"></script>
+    <script src="./dist/main.js"></script>
   </body>
 </html>
